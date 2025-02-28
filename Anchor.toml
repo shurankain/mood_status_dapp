@@ -4,14 +4,14 @@
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-mood_status_dapp = "6iuP8j1RfwRyHCDUdtrSv3GAtZa9ZKkePMVVbNRXMoH8"
+[programs.devnet]
+mood_status_dapp = "5eWpbFtEPydGTGaMEhLBoogRBU7sd7cU4AVfwCC8U1sA"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
